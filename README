@@ -1,0 +1,28 @@
+############
+#          #
+# LYNIS100 #
+#          #  
+############
+
+# The lynis100 project aims to reach the high score for lynis
+# auditors everywhere! A short runtime with a considerable
+# improvement to your home or business's cybersecurity makes
+# this script ideal for the concerned party that just wants to 
+# enjoy the benefits their devices provide, without fear that
+# their personal or financial well-being is at stake.
+
+# Script currently raises your device's cypersec hardening index
+# from the fresh install's 64% to 96% in the easiest and quickest
+# way possible. Enjoy the peace of ming, and please keep the open
+# source community free of profiteering!
+
+# Remember to keep all extracted files in the  same folder!
+ 
+$ tar -xf lynis100*.tar.gz
+$ chmod +x /path/to/lynis100/lynis100*.sh
+$ sh /path/to/lynis100/lynis100*.sh
+$ sudo cp -f /path/to/lynis100/cron.boot /usr/local/bin/bootcron.sh
+$ chmod +x /usr/local/bin/bootcron.sh
+
+# Then set your desktop environment to run /usr/local/bin/bootcron.sh
+# at startup, and enjoy a massively secure flavor of Debian!
